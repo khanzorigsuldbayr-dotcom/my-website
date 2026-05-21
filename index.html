@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Day Anniversary</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+        }
+        .invitation-card {
+            background: #ffffff;
+            width: 90%;
+            max-width: 450px;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+            border: 1px solid #e0e0e0;
+            position: relative;
+        }
+        .invitation-card::before {
+            content: "";
+            position: absolute;
+            top: 10px; left: 10px; right: 10px; bottom: 10px;
+            border: 1px solid #d4af37; /* Алтан хүрээ */
+            pointer-events: none;
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 22px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .poem {
+            font-style: italic;
+            color: #555;
+            line-height: 1.8;
+            margin: 25px 0;
+            font-size: 16px;
+        }
+        .details {
+            margin: 30px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+            color: #333;
+        }
+        .location {
+            font-weight: bold;
+            color: #c62828; /* Солонгос уур амьсгал оруулсан улаан өнгө */
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+        .heart {
+            color: #d4af37;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="invitation-card">
+    <div class="heart">✦</div>
+    <h1>Special Invitation</h1>
+    
+    <p>Эрхэмт хүндэт <strong>Jennie</strong> Чамайгаа</p>
+
+    <div class="poem">
+        "Зуун хоногийн өмнө чи наддаа ирсэн,<br>
+        Зүрхний минь гүнд гэрэл асаасан...<br>
+        Уулзаж учирсан тэр нэгэн өдрөөс хойш<br>
+        Учрал бүхэн минь жаргал болон үлджээ"
+    </div>
+
+    <div class="details">
+        <p>Бидний танилцсан 100 дахь өдрийн баяр</p>
+        <p class="location">Blue Sky, 22-р давхар<br>Korean Restaurant</p>
+    </div>
+
+    <p>Энэхүү онцгой үдшийг надтай хамт өнгөрүүлэхийг хүсье</p>
+
+    <div class="footer">
+        Чамайгаа ирэхийг хүлээж буй,<br>
+        <strong>[Хүндэтгсэн Сүлдбаяр]</strong>
+    </div>
+    <br>
+    <div class="heart">♥</div>
+</div>
+
+</body>
+</html>
